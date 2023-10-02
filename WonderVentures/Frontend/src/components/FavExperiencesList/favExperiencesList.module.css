@@ -1,0 +1,37 @@
+.title-body-div {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 9rem;
+	padding-left: 8%;
+	gap: 1rem;
+}
+
+.textBody {
+	text-align: start;
+	font-family: var(--montserrat);
+	font-size: 3rem;
+	font-weight: 500;
+	color: #263238;
+}
+
+@media (min-width: 601px) and (max-width: 1020px) {
+	.textBody{
+		font-size: 2rem;
+	}
+}
+
+/* START MOBILE CSS */
+@media (max-width: 600px) {
+
+	.textBody{
+		font-size: 1.5rem;
+	}
+	.containerFav{
+		height: 100%;
+	}
+	
+
+}

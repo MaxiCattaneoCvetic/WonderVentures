@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="411e6bdd-680e-4da9-81a7-bbb499cd977f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/cambios.log" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/cambios.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/DTO/BookingDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/DTO/BookingDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/DTO/CategoryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/DTO/CategoryDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/DTO/ExperienceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/DTO/ExperienceDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/DTO/ImagePathDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/DTO/ImagePathDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/DTO/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/DTO/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/DTO/ReviewDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/DTO/ReviewDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/Jwt/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/Jwt/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/Jwt/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/Jwt/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/Jwt/jwtService/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/Jwt/jwtService/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/Jwt/loginAndRegisterRequest/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/Jwt/loginAndRegisterRequest/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/Jwt/loginAndRegisterRequest/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/Jwt/loginAndRegisterRequest/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/WonderVenturesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVenturesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/controller/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/controller/ExperienceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/controller/ExperienceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/controller/ImagePathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/controller/ImagePathController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/controller/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/controller/ReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/controller/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/controller/auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/controller/emailSender/SendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/controller/emailSender/SendEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/controller/emailSender/SuccessfulResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/controller/emailSender/SuccessfulResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/entity/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/entity/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/entity/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/entity/Experience.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/entity/Experience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/entity/ImagePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/entity/ImagePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/entity/Politic.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/entity/Politic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/entity/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/entity/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/exception/AuthResponseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/exception/AuthResponseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/exception/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/exception/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/repository/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/repository/BookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/repository/ExperienceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/repository/ExperienceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/repository/ImagePathRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/repository/ImagePathRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/repository/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/repository/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/repository/ReviewRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/security/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/security/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/service/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/service/ExperienceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/service/ExperienceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/service/ImagePathService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/service/ImagePathService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/service/ReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/service/ReviewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/service/serviceInterface/IserviceBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/service/serviceInterface/IserviceBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/service/serviceInterface/IserviceCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/service/serviceInterface/IserviceCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/service/serviceInterface/IserviceExperience.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/service/serviceInterface/IserviceExperience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/service/serviceInterface/IserviceImagePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/service/serviceInterface/IserviceImagePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/service/serviceInterface/IservicePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/service/serviceInterface/IservicePerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/WonderVentures/service/serviceInterface/IserviceReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/java/com/WonderVentures/service/serviceInterface/IserviceReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WonderVentures/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/WonderVentures/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/script.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/components/Body/Index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/components/Body/Index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/features/AdminActions/components/DesktopPanel/Index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/features/AdminActions/components/DesktopPanel/Index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/features/AdminActions/components/FormCategory/AddCategory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/features/AdminActions/components/FormCategory/AddCategory.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/features/user/Login/Index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/features/user/Login/Index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/features/user/Register/Index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/features/user/Register/Index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/utils/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/utils/constants.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2UP9t4ggCvv20N1zDlYayxzzAKK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/cveti/Desktop/WonderVentures(personal and testing)/Final/WonderVentures/Backend/WonderVentures",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cveti\Desktop\WonderVentures(personal and testing)\Final\WonderVentures\Backend\WonderVentures\src\main\java\com\WonderVentures" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="WonderVenturesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../jdk-19.0.2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.WonderVentures.WonderVentures.WonderVenturesApplication" />
+      <module name="Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.WonderVentures.WonderVentures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WonderVenturesApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="411e6bdd-680e-4da9-81a7-bbb499cd977f" name="Changes" comment="" />
+      <created>1692830559798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692830559798</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

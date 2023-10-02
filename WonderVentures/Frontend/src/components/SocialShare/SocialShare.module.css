@@ -1,0 +1,15 @@
+.social-share-container {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: small;
+}
+
+.social-share-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.social-share-icons:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,27 @@
+@import '../../generalSyles.css';
+
+.suggestContainer li {
+  cursor: pointer;
+}
+.suggestContainer li:hover {
+  color: var(--primaryColor);
+}
+
+/* START MOBILE CSS */
+@media (max-width: 767px) {
+  .suggestContainer input::placeholder {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  .suggestContainer li {
+    font-size: 0.5rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+}
+
+@media (min-width: 1021px) and (max-width: 1536px) {
+}

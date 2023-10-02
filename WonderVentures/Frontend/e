@@ -1,0 +1,19 @@
+[33m276f571[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{0}: commit: fix css admListProduct
+[33m7fe38a9[m HEAD@{1}: commit: add css to listProductPanel
+[33m8aefded[m HEAD@{2}: pull origin master: Fast-forward
+[33m716682c[m HEAD@{3}: commit: added admin actions
+[33md3ac45b[m HEAD@{4}: checkout: moving from front-testing to master
+[33m161ed1d[m[33m ([m[1;32mfront-testing[m[33m)[m HEAD@{5}: pull: Merge made by the 'ort' strategy.
+[33m28b551f[m HEAD@{6}: commit: add exp route
+[33m1540773[m HEAD@{7}: pull origin front-testing: Merge made by the 'ort' strategy.
+[33m9b5bd81[m HEAD@{8}: commit: adding styles button PanelAdm
+[33m841e8cc[m HEAD@{9}: commit: add notAvailableMovile component and css
+[33m49c1159[m HEAD@{10}: commit: adding user story 10 without css
+[33mfeba312[m HEAD@{11}: commit: adding user story 10 without css
+[33m4af480b[m HEAD@{12}: commit: add responsive footer
+[33m52e96c9[m HEAD@{13}: commit: add css to AdmPanel
+[33m0df9912[m HEAD@{14}: checkout: moving from main to front-testing
+[33m80b3dfd[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/frontend[m[33m, [m[1;31morigin/backend[m[33m, [m[1;31morigin/back-testing[m[33m, [m[1;32mmain[m[33m)[m HEAD@{15}: checkout: moving from front-testing to main
+[33m0df9912[m HEAD@{16}: commit: initial commit US(1,3,4,7)
+[33m80b3dfd[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/frontend[m[33m, [m[1;31morigin/backend[m[33m, [m[1;31morigin/back-testing[m[33m, [m[1;32mmain[m[33m)[m HEAD@{17}: checkout: moving from main to front-testing
+[33m80b3dfd[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/frontend[m[33m, [m[1;31morigin/backend[m[33m, [m[1;31morigin/back-testing[m[33m, [m[1;32mmain[m[33m)[m HEAD@{18}: initial pull

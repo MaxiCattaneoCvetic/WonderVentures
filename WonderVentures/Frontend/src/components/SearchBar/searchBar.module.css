@@ -1,0 +1,140 @@
+@import "../../generalSyles.css";
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	gap: 20px;
+  align-items: center;
+  background-color: var(--footerBackground);
+  color: white;
+	padding: 2rem;
+  font-family: var(--sourceSans);
+}
+
+.navbar-btn-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.navbar-item {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 12px;
+  background: none;
+  border-radius: 10px;
+  gap: 0.2rem;
+}
+.navbar-item input {
+  margin-bottom: 0.2rem;
+}
+
+.navbar-item label {
+  margin-bottom: 6px;
+}
+
+.navbar-item input {
+  color: white;
+  padding: 8px;
+  background: none;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.navbar-buttons{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.navbar-buttons button{
+	display: flex;
+	flex-direction: row !important;
+  padding: 8px 16px;
+  background-color: var(--primaryColor);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+
+}
+hr {
+  height: 0.1px;
+}
+
+.navbar-item button:hover {
+  background-color: #0056b3;
+}
+
+.bestOffert{
+	background-color: var(--footerBackground);
+  font-family: var(--montserrat);
+  height: 3rem;
+	color: white;
+	text-align: center;
+	height: auto;
+	padding: 2rem 0;
+}
+
+.bestOffert h2, .bestOffert h3 {
+  margin: 10px auto;
+}
+
+.bestOffert h2{
+	font-size: 2rem;
+}
+
+.datesBox{
+  margin-top: 0.5rem;
+}
+
+
+/* START MOBILE CSS */
+@media (max-width: 767px) {
+  .navbar-btn-container{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    width: 90%;
+  }
+
+  .bestOffert{
+    padding: 1rem 0;
+  }
+  
+  .bestOffert h2{
+    font-size: 1.5rem;
+    width: 80%;
+  }
+  .bestOffert h3{
+    font-size: 1rem;
+    width: 80%;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+  .navbar-btn-container{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 70%;
+  }
+  .navbar-btn-container > div:first-of-type{
+    grid-column: span 2 / span 2;
+  }
+
+  .bestOffert{
+    padding: 1.2rem 0;
+  }
+  
+}
+
+@media (min-width: 1021px) and (max-width: 1536px) {
+	.navbar-btn-container {
+    width: 70%;
+  }
+}

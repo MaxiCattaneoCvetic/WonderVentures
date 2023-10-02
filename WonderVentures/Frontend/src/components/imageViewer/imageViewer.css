@@ -1,0 +1,111 @@
+.content-btn {
+  color: #ff8a30;
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #f5f7fa;
+  border: transparent;
+  cursor: pointer;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 5px 20px;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 24px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  position: relative;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #ff8a30;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+
+.images-modal {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  padding: 0 20px;
+}
+
+/* Estilos para las imagenes miniaturas */
+.thumbnail-container {
+  display: flex;
+  overflow-x: auto;
+  justify-content: center;
+  gap: 10px;
+  overflow-x: hidden;
+  padding: 10px 0;
+}
+
+.thumbnail {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.thumbnail.selected {
+  border-color: #ff8a30;
+}
+
+@media (max-width: 500px) {
+  .thumbnail-container {
+    flex-wrap: wrap;
+  }
+  .prev-btn,
+  .next-btn {
+    margin: 0 0px;
+  }
+  .content-btn {
+    padding: 8px 15px;
+    gap: 0px;
+  }
+  .close-btn {
+    padding: 5px 5px;
+  }
+}

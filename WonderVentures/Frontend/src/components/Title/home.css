@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url("../../generalSyles.css");
+
+video {
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+  }
+	
+.video-wrapper {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-home{
+	height: 35rem;
+	width: 100%;
+}
+
+.container-home-info{
+	position: absolute;
+	display: flex;
+	top: 13rem;
+	text-align: left;
+	left: 8rem;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.info-p{
+	position: relative;
+	color: white;
+	left: 1rem;
+	font-size: 1.2rem;
+	font-family: var(--montserrat);
+}
+.visita-text{
+	font-size: 4.5rem;
+	color: white;
+	font-weight: 700;
+	font-family: var(--montserrat);
+	text-shadow: 0px -2px 14px rgba(0, 0, 0, 0.5);
+}
+
+.welcomeUser{
+	font-size: 1.2rem;
+	color: white;
+	position: relative;
+	left: 1rem;
+}
+.welcomeUser strong {
+  color: var(--primaryColor);
+  font-weight: bolder;
+  font-size: 1.4rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.btn-primary.register {
+	margin-top: 1rem;
+	align-self: flex-start ;
+	margin-left: 1rem;
+	width: 20%;
+	padding: 0.5rem;
+	border-radius: 10px;
+}
+
+/* START MOBILE */
+
+@media screen and (max-width: 1000px){
+	video {
+		height: 130%;
+	}
+}
+
+
+@media (max-width: 1020px) {
+	.container-home{
+		height: 25rem;
+	}
+
+	.container-home-info{
+		left: 4rem;
+		gap: 1.5rem;
+		width: 80%;
+		top: 11rem;
+	}
+	.visita-text{
+		font-size: 3rem;
+		left: 0rem;
+	}
+	.info-p{
+		font-size: 1.3rem;
+		left: 0.5rem;
+	}
+	.register{
+		right: 0rem;
+	}
+	.btn-primary.register{
+		width: auto;
+	}
+
+	footer{
+		position: absolute;
+	}
+
+	.welcomeUser{
+		font-size: 1.3rem;
+		left: 0.5rem;
+	}
+	.welcomeUser strong {
+		font-size: 1rem;
+	}
+
+}
+
+
+@media (max-width: 785px) {
+	.container-home{
+		height: 25rem;
+	}
+
+	.container-home-info{
+		left: 2rem;
+		gap: 1rem;
+		top: 10rem;
+	}
+
+	.visita-text{
+		font-size: 2rem;
+	}
+	.info-p{
+		font-size: 1rem;
+	}
+	
+	.register{
+		right: 0rem;
+	}
+	.btn-primary.register{
+		width: auto;
+	}
+
+	footer{
+		position: absolute;
+	}
+
+	.welcomeUser{
+		font-size: 1rem;
+	}
+
+	.welcomeUser strong {
+		font-size: 1rem;
+	}
+
+}

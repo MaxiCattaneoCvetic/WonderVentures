@@ -1,0 +1,234 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Ushuaia",
+      "description": "La ciudad más austral del mundo, puerta de entrada a la Antártida.",
+      "images": [
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Salta",
+      "description": "Encantadora ciudad colonial enclavada en los Andes.",
+      "images": [
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mendoza",
+      "description": "Famosa por sus viñedos y deliciosos vinos.",
+      "images": [
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Glaciar Perito Moreno",
+      "description": "Impresionante masa de hielo en constante movimiento.",
+      "images": [
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Mar del Plata",
+      "description": "Famosa ciudad costera con hermosas playas.",
+      "images": [
+        {
+          "path": "Pexels_of_sea.jpg"
+        },
+        {
+          "path": "Pexels_of_sea.jpg"
+        },
+        {
+          "path": "Pexels_of_sea.jpg"
+        },
+        {
+          "path": "Pexels_of_sea.jpg"
+        },
+        {
+          "path": "Pexels_of_sea.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Córdoba",
+      "description": "Centro cultural y educativo con una rica historia.",
+      "images": [
+        {
+          "path": "photo-1585409677983-0f6c41ca9c3b.jpg"
+        },
+        {
+          "path": "photo-1585409677983-0f6c41ca9c3b.jpg"
+        },
+        {
+          "path": "photo-1585409677983-0f6c41ca9c3b.jpg"
+        },
+        {
+          "path": "photo-1585409677983-0f6c41ca9c3b.jpg"
+        },
+        {
+          "path": "photo-1585409677983-0f6c41ca9c3b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "El Calafate",
+      "description": "Base para explorar los glaciares y la belleza patagónica.",
+      "images": [
+        {
+          "path": "lpr-park-antplay2.jpg"
+        },
+        {
+          "path": "lpr-park-antplay2.jpg"
+        },
+        {
+          "path": "lpr-park-antplay2.jpg"
+        },
+        {
+          "path": "lpr-park-antplay2.jpg"
+        },
+        {
+          "path": "lpr-park-antplay2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "San Carlos de Bariloche",
+      "description": "Destino de montaña con hermosos lagos y vistas panorámicas.",
+      "images": [
+        {
+          "path": "park4.jpg"
+        },
+        {
+          "path": "park4.jpg"
+        },
+        {
+          "path": "park4.jpg"
+        },
+        {
+          "path": "park4.jpg"
+        },
+        {
+          "path": "park4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Rosario",
+      "description": "Importante ciudad portuaria a orillas del río Paraná.",
+      "images": [
+        {
+          "path": "photo-1585409677983-0f6c41ca9c3b.jpg"
+        },
+        {
+          "path": "photo-1585409677983-0f6c41ca9c3b.jpg"
+        },
+        {
+          "path": "photo-1585409677983-0f6c41ca9c3b.jpg"
+        },
+        {
+          "path": "photo-1585409677983-0f6c41ca9c3b.jpg"
+        },
+        {
+          "path": "photo-1585409677983-0f6c41ca9c3b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Santa Cruiz",
+      "description": "Esto es una prueba de santa cruz",
+      "images": [
+        {
+          "path": "istockphoto-1288385045-612x612.jpg"
+        },
+        {
+          "path": "lpr-park-antplay2.jpg"
+        },
+        {
+          "path": "mountain.jpg"
+        },
+        {
+          "path": "park2.jpg"
+        },
+        {
+          "path": "photo-1585409677983-0f6c41ca9c3b.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "asd",
+      "description": "asd",
+      "images": [
+        {
+          "path": "desert.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+@import "../../generalSyles.css";
+
+.topContainer{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+@media  (max-width: 950px) {
+
+	.topContainer{
+		width: 100%;
+
+	}	
+
+}
+
+.btnCarrousel{
+	margin-top: 0.5rem;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	}
+
+	.btnCarrousel button{
+		cursor: pointer;
+    width: 1px;
+    height: 1px;
+		margin: 0.3rem;
+		border-radius: 50%;
+		background-color: var(--footerBackground);
+		padding: 0.5rem;
+		border: 2px solid var(--footerBackground);
+	}
+
+
+	.current00{
+		background-color: white !important;
+	}
+	.current11{
+		background-color: white !important;
+	}
+	.current22{
+		background-color: white !important;
+	}
+

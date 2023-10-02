@@ -1,0 +1,196 @@
+.inputFlex {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+}
+
+.inputFlex input,
+textarea {
+    background: none;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+#name,
+#location {
+    width: 16rem;
+}
+
+#price {
+    width: 5rem;
+}
+
+#activityText {
+    background: none;
+}
+
+
+.inputFlex input::placeholder {
+    color: rgba(255, 255, 255, 0.973);
+    font-weight: lighter;
+}
+
+.inputFlex textarea::placeholder {
+    color: rgba(255, 255, 255, 0.973);
+    font-weight: lighter;
+}
+
+
+.activity-list-container {
+    display: flex;
+    width: 100%;
+}
+
+.activity-list-container li {
+    font-size: 0.8rem;
+    list-style: none;
+}
+.activity-list-container li {
+    margin-top: 0.3rem;
+}
+
+.delete-activity-icon {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.add-product-form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.container-form-master {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.activities-politics-container {
+    width: 100%;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    align-items: center;
+}
+
+
+.politic-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.gral-info-categories-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.drag-category-descriptionContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10rem;
+
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+#description {
+    width: 156%;
+    height: 146px;
+    resize: none;
+    background: none;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0.2rem
+}
+
+#description::placeholder {
+    color: rgba(255, 255, 255, 0.932);
+    font-weight: lighter;
+
+}
+
+#politicDescription {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.drag-category-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gral-info-div-main {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.activities-container {
+    display: flex;
+    gap: 4rem;
+}
+
+.activity-item-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.activities-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnform {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-weight: bolder;
+    border-radius: 10px 10px;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.btnform:hover{
+    background-color: var(--primaryColor);
+    color: white;
+    transition: 0.8s;
+}
+
+/* Modificar el estilo de la barra de desplazamiento vertical */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--footerBackground); /* Color del "pulgar" de la barra de desplazamiento */
+    border-radius: 2px; /* Bordes redondeados del "pulgar" */
+}
+
+::-webkit-scrollbar-track {
+    background: white /* Color del fondo de la barra de desplazamiento */
+}
+
+

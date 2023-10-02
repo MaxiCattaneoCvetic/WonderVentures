@@ -1,0 +1,98 @@
+.mainContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 3rem;
+	text-align: center;
+	width: 100%;
+	flex-direction: column;
+}
+.title-body-div {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 3rem 0 0;
+	padding-left: 8%;
+	gap: 1rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.textBody {
+	text-align: start;
+	font-family: var(--montserrat);
+	font-size: 3rem;
+	font-weight: 500;
+	color: #263238;
+}
+.mainContainerTop{
+	margin: 1rem;
+	padding-left: 10%;
+}
+
+.filtersContainer{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	width: 100%;
+}
+.categoryFilterContainer{
+	display: flex;
+	align-items: start;
+	gap: 0.5rem;
+	flex-direction: column;
+}
+.filterItem{
+	display: flex;
+	align-items: start;
+	gap: 1rem;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.deleteFilterBTN{
+	border: 1px solid var(--primaryColor);
+	border-radius: 15px;
+	background-color: white;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+@media (min-width: 601px) and (max-width: 1020px) {
+	.textBody{
+		font-size: 2rem;
+	}
+}
+
+/* START MOBILE CSS */
+@media (max-width: 600px) {
+
+	.mainContainer{
+		width: 100%;
+		margin-left: 0rem;
+	}
+
+	.textBody{
+		font-size: 1.5rem;
+	}
+
+	.mainContainerTop{
+		margin: 1rem;
+		padding-left: 0%;
+	}
+
+	.filterItem{
+		flex-direction: row;
+		gap: 0.5rem;
+	}
+
+}
+

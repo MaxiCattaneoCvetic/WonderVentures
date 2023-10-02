@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+.login-main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--footerBackground);
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 3px solid #d9d9d9;
+  padding: 40px 10px;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+}
+
+.login-form-container h3,
+.login-form-container h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-shadow: none;
+}
+
+.login-form-container h3 {
+  font-size: 32px;
+}
+
+.login-form-container h4 {
+  font-size: 18px;
+}
+.login-form-container form {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form-container input {
+  border: #d9d9d9 2px solid;
+  border-radius: 5px;
+  margin: 10px auto;
+  width: 80%;
+  padding: 8px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.login-form-container input::placeholder {
+  font-size: 16px;
+}
+
+.login-form-container button {
+  font-size: 16px;
+}
+
+.login-form-container .btn-header-a {
+  background-color: #f5f7fa;
+}
+
+.link-style {
+  text-decoration: none;
+  color: #333;
+}
+
+.link-style:hover {
+  color: #767676;
+}
+
+.btn-container-login {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 14px 0;
+  justify-content: space-evenly;
+}
+
+
+
+.register-confirmation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    width: 70%;
+  }
+  .login-form-container h3 {
+    font-size: 40px;
+  }
+  .login-form-container h4 {
+    font-size: 20px;
+  }
+  .login-form-container input {
+    padding: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .login-form-container {
+    width: 35%;
+  }
+  .login-form-container form {
+    margin-top: 30px;
+  }
+  .form-errors {
+    width: 75%;
+    font-size: 14px;
+  }
+}

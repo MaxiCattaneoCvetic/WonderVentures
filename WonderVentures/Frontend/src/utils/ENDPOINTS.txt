@@ -1,0 +1,136 @@
+Hasta ahora estos endpoints estan asociados a un usuario
+("/user/new").
+("/user/new/master").hasRole("ADMIN")
+("/user/register").permitAll()
+("/user/delete").hasRole("ADMIN")
+("/user/find").hasRole("ADMIN")
+("/user/all").hasRole("ADMIN")
+("/experience/all").permitAll()
+("/experience/add").hasRole("ADMIN")
+("/experience/delete").hasRole("ADMIN")
+
+
+                                                  ENDPOINTS 
+
+
+
+ <--------------------------Correspondientes al registro de nuevos usuarios------------------------------->
+
+> Crear un nuevo usuario CLIENTE permitAll()
+
+ENDPOINT > http://localhost:8080/user/new
+
+**recibe los siguientes parametros**
+
+    {
+        "name": "Maxi", 
+        "surname": "testToken",
+        "username": "abc@gmail.com",
+        "password": "contraseña123"
+
+    }
+
+    > Crear un nuevo usuario ADMINISTRADOR
+
+    http://localhost:8080/user/new/master
+
+    **recibe los mismos parametros, para crear un usuario adm primero tenemos que ser administrador, cree uno para el equipo
+
+    CREDENCIALES USUARIO ADMINISTRADOR [
+
+        "username": "admin@gmail.com"
+        "password": "equipo4admin"
+
+    ]
+       
+
+
+ -----------------------------------------------------
+
+> Eliminar un usuario: Se elimina mediante el correo electronico (unico).
+
+ENDPOINT > http://localhost:8080/user/delete/correo@gmail.com
+
+La parte del correo en la ruta es variable, ahi deberia ir el correo del user que se desea eliminar.
+
+ -----------------------------------------------------
+
+> Buscar un usuario por su correo electronico:
+
+ENDPOINT > http://localhost:8080/user/find/correo@gmail.com
+
+La parte del correo en la ruta es variable, ahi deberia ir el correo del user que se desea buscar.
+
+ -----------------------------------------------------
+
+> listar TODOS los usuarios registrados 
+
+ENDPOINT > http://localhost:8080/user/all
+
+
+ENDPOINTS 
+
+ <--------------------------Correspondientes al registro de nuevos productos------------------------------->
+
+
+> Buscar producto por su id 
+
+ENDPOINT > http://localhost:8080/experience/id
+
+
+
+ -----------------------------------------------------
+
+> Listar todos los productos
+
+ENDPOINT > http://localhost:8080/experience/all
+
+ -----------------------------------------------------
+
+> Listar productos paginados
+
+ENDPOINT > http://localhost:8080/experience/all?limit=<int>&page=<int>
+
+limit es la cantidad de productos a traer
+page es desde qué posición de los resultados traer productos
+
+ -----------------------------------------------------
+
+> Agregar nuevos productos
+
+ENDPOINT > http://localhost:8080/experience/add
+
+
+**recibe los siguientes parametros** > considerar en el front que necesitamos guardar tambien la "caracteristicas" > de momento no esta habilitada
+
+{
+    "price":2.0,
+    "name":"producto01",
+    "location":"location1",
+    "description":"description1",
+    "imagePath":"imagePath1"
+}
+
+ -----------------------------------------------------
+
+> Eliminar nuevos productos
+
+ENDPOINT > http://localhost:8080/experience/delete/id
+
+
+ <--------------------------Correspondiente al envio de correo cuando el usuario se registra exitosamente ------------------------------->
+
+
+ENDPOINT > http://localhost:8080/enviarCorreo/correo@gmail.com
+
+
+
+proximos endpoints: Eliminar producto segun el nombre de la experiencia, al igual que buscar el producto por el nombre de la experiencia. 
+
+
+
+
+
+
+
+

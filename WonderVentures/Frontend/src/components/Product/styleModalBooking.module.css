@@ -1,0 +1,188 @@
+.mainModalContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	gap: 0.5rem;
+	font-size: 0.8rem;
+}
+.userInfo {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+.mainModalContainer h2{
+	font-size: 1.2rem;
+	padding: 1rem;
+}
+.boxInput{
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+	padding: 1.3rem 2rem;
+	gap: 0.5rem;
+	width: 100%;
+}
+
+.boxInput label{
+	text-align: left;
+}
+
+.boxInput input{
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	padding: 0.7rem 1rem;
+	border-radius: 3rem;
+	width: 100%
+}
+
+.mainInfoBooking{
+	width: 100%;
+	text-align: left;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.imgContainer{
+	display: flex;
+	width: 90%;
+	flex-direction: column;
+	gap: 0.3rem;
+}
+.btnContainer{
+	display: flex;
+	justify-content: center;
+	gap: 0.5rem;
+}
+.arrowImg{
+	cursor: pointer;
+}
+
+.textBookingContainer{
+	margin-top: 1rem;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 0.8rem;
+}
+
+.imagen{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.textBookingContainer div {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 0.5rem;
+	border: 1px solid white;
+	width: 100%;
+	border-radius: 3rem;
+	padding: 0.5rem 1.5rem;
+}
+.textBookingContainer span {
+	font-weight: bolder;
+	font-size: 1rem;
+}
+
+.politicsActivitiesContainer {
+	width: 85%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	margin-bottom: 1rem;
+}
+
+.politicsActivitiesContainer h3 {
+	margin: 0.5rem 0;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+.politicsContainer{
+	margin-bottom: 0.2rem;
+}
+
+.reservarBtn {
+	padding: 1rem 1.5rem;
+	background-color: var(--primaryColor);
+	color: white;
+	border-radius: 15px;
+	outline: none;
+	border: none;
+	font-size: 1rem;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+@media (min-width: 768px){
+
+	.userInfo{
+		flex-direction: row;
+		justify-content: center;
+		gap: 0.8rem;
+		padding: 0 0.5rem;
+	}
+	.boxInput{
+		width: 45%;
+		padding: 0;
+	}
+	.boxInput input{
+		width: 100%
+	}
+	.imgContainer{
+		width: 45%;
+	}
+
+	.reservarBtn {
+		margin-top: 1rem;
+	}
+}
+
+
+
+@media (min-width: 1020px){
+
+	.mainModalContainer{
+		font-size: 1rem;
+	}
+	.mainModalContainer h2{
+		font-size: 1.5rem;
+		padding: 1rem;
+	}
+
+	.userInfo {
+		padding: 0;
+	}
+
+	.imgContainer{
+		width: 40%;
+	}
+
+	.textBookingContainer{
+		margin-top: 0rem;
+		width: 45%;
+	}
+
+	.mainInfoBooking {
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+	}
+	.politicsActivitiesContainer {
+		width: 40%;
+		margin-bottom: 0rem;
+	}
+}

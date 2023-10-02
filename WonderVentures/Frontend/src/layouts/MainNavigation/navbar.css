@@ -1,0 +1,212 @@
+@import url("../../generalSyles.css");
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--montserrat);
+}
+
+header {
+  width: 100vw;
+  position: fixed;
+  z-index: 30;
+}
+
+.navbar {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  justify-content: space-between;
+  padding: 0 6rem;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.container {
+  z-index: 1;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.navbar-logo img{
+  width: 11rem;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  justify-content: flex-end;
+  background-color: var(--footerBackground);
+}
+
+.nav-item {
+  height: 80px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid var(--hoverLetters);
+}
+
+.nav-links {
+  color:white;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+}
+
+.activated {
+  color: white;
+}
+
+.fa-bars {
+  color: var(--lettersHead);
+}
+
+.menu-icon {
+  display: none;
+}
+
+/*************  buttons *********/
+.btn-header{
+  padding: 0.8rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  border-radius: 10px 10px 10px 10px;
+  background:none;
+  color:white;
+  border: none;
+  background-color: var(--primaryColor);
+  cursor: pointer;
+  
+}
+.btn-header-a{
+  padding: 0.8rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  border-radius: 10px 10px 10px 10px;
+  background:none;
+  color: var(--primaryColor);
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-primary{
+	padding: 1rem;
+	border: none;
+	background: var(--primaryColor);
+	color: white;
+	cursor: pointer;
+}
+
+.buttons{
+  display: flex;
+
+}
+
+.buttons li{
+  list-style: none;
+  display: flex;
+  
+}
+
+
+
+
+/* start mobile */
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-menu {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    height: 100vh;
+  }
+
+  .nav-menu.active {
+    background-image: url("../../assets/back-menu-mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0;
+    opacity: 1;
+    transition: all 0.6s ease;
+    z-index: 100;
+  }
+
+  .nav-links {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    color: var(--hoverLetters);
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+  }
+
+  .nav-item:hover {
+    border: none;
+  }
+
+  .nav-item {
+    width: 100%;
+    color: white;
+  }
+
+  .menu-icon {
+    display: block;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .buttons{
+    flex-direction: column;
+  }
+
+  .navbar {
+    padding: 0 30px;
+  }
+
+}
+
+@media (min-width: 786px) and (max-width: 960px){
+  .navbar {
+    padding: 0 60px;
+  }
+}

@@ -1,0 +1,151 @@
+[33mcommit 20746068051fa9795dbe5849843cc45423b3b1db[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Thu Aug 17 14:16:37 2023 -0300
+
+    adding new (addproduct) endpoint
+
+[33mcommit b9b28f2d1779ef6f83a313c65f7d99d4054b29cd[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Wed Aug 16 15:16:25 2023 -0300
+
+    adding testUnit (create user)
+
+[33mcommit eb344032ba5508e903fde69d991d870cf310dbe9[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Wed Aug 16 14:34:35 2023 -0300
+
+    Adding a Backend (Entity) structure
+
+[33mcommit 9e336a89bae5e588a3a698962b57eba79697de4b[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Wed Aug 16 13:49:40 2023 -0300
+
+    Adding a Backend (Entity) structure
+
+[33mcommit 0e2cc2a85f592291969ac1d777a0a611b3440c6d[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Mon Aug 14 16:27:49 2023 -0300
+
+    adding responsive card css
+
+[33mcommit c712f6deb48f167a205d9adcd3dae28e0e2076ec[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Mon Aug 14 12:07:46 2023 -0300
+
+    adding new card size
+
+[33mcommit 82e49465e5f04b1c93326ddf4d2e9a20586e8ad4[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Mon Aug 14 12:04:21 2023 -0300
+
+    adding new card size
+
+[33mcommit b257f8d286720fa70f9207b31f6b7bcc9462dc4c[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Fri Aug 11 19:40:46 2023 -0300
+
+    fix navbar position in admPanel
+
+[33mcommit 29a7ce8d633cbefaf95a8b2da4aa4c96554ffa3c[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Fri Aug 11 18:40:28 2023 -0300
+
+    endding mobile panelAdm
+
+[33mcommit 6dd12f083ff9024adb55f664a7e9da4c8ece03fd[m
+Author: execocchi <execocchi@gmail.com>
+Date:   Fri Aug 11 17:47:02 2023 -0300
+
+    updated json
+
+[33mcommit 09609b1899155bebe46e3c7cc51d92b6ee125262[m
+Merge: 7fadbdc ea5ea8c
+Author: execocchi <execocchi@gmail.com>
+Date:   Fri Aug 11 17:40:16 2023 -0300
+
+    Merge branch 'master' of https://gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0723/0222pt-c3/equipo-04
+
+[33mcommit 7fadbdcfd4fcf9a653373f3323008b4d58374118[m
+Author: execocchi <execocchi@gmail.com>
+Date:   Fri Aug 11 17:39:37 2023 -0300
+
+    Added product details with carousel
+
+[33mcommit ea5ea8ca850f58da6fa1cab0a83d1440ba6852cf[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Fri Aug 11 16:10:50 2023 -0300
+
+    adding nav styles- position fixed
+
+[33mcommit 8fd2d97f65f284c5ab9adf7a81a227e9d707b0b6[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Fri Aug 11 15:18:49 2023 -0300
+
+    adding filterExperiences component
+
+[33mcommit 3116aab6ad3b794bbdaa171d5fcc2df8b0fe3fa2[m
+Author: execocchi <execocchi@gmail.com>
+Date:   Fri Aug 11 15:09:58 2023 -0300
+
+    fixed dropzone ui after form submission
+
+[33mcommit 6480688c6be172778b5b928f49434daf2e0fb0e3[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Fri Aug 11 13:42:22 2023 -0300
+
+    adding searchBar
+
+[33mcommit fbf9fdc8c3818f52f75325df8e6547e4040bfe7d[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Fri Aug 11 12:59:58 2023 -0300
+
+    adding boddy flex-desk and mobile
+
+[33mcommit c6f66b3a4f7f13ab3218d349fd2020685294b0a0[m
+Merge: 87b28f9 276f571
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Fri Aug 11 12:51:46 2023 -0300
+
+    Merge branch 'master' of https://gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0723/0222pt-c3/equipo-04
+
+[33mcommit 87b28f99294ee759227448774456d7438fb638e8[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Fri Aug 11 12:48:11 2023 -0300
+
+    component card added
+
+[33mcommit 276f5710b6c62e406e25d462c8a67fc871db544c[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Fri Aug 11 00:01:16 2023 -0300
+
+    fix css admListProduct
+
+[33mcommit 7fe38a942646fbd223942dd0906c5d34a3457802[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Thu Aug 10 23:39:34 2023 -0300
+
+    add css to listProductPanel
+
+[33mcommit 8aefded44b30a1ece81d5f31b1c4ac2c4eaaf0c4[m
+Author: execocchi <execocchi@gmail.com>
+Date:   Thu Aug 10 17:57:00 2023 -0300
+
+    updated routes and added delete logic
+
+[33mcommit 05db18b1f1fe38c627c630ebe26147768ce3fb84[m
+Author: execocchi <execocchi@gmail.com>
+Date:   Thu Aug 10 15:49:11 2023 -0300
+
+    added all pages
+
+[33mcommit 716682ceb1ed4d084d90118e24c799f198145bda[m
+Author: MaxiCattaneoCvetic <cveticmaxi97@gmail.com>
+Date:   Wed Aug 9 21:16:13 2023 -0300
+
+    added admin actions
+
+[33mcommit d3ac45bdac33d1adde606d52df8453fdbcc01089[m
+Author: execocchi <execocchi@gmail.com>
+Date:   Wed Aug 9 19:51:08 2023 -0300
+
+    added routes

@@ -1,0 +1,474 @@
+@import url("../../generalSyles.css");
+
+.carousel.carousel-slider {
+  height: 200px;
+}
+
+.product-detail-gallery {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.content-product-image {
+  height: 245px;
+}
+
+.product-detail-gallery-principal {
+  height: 500px;
+  width: 60%;
+
+  .principal-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.product-image {
+  height: 100%;
+  object-fit: cover;
+  width: 20rem;
+}
+
+.product-detail-gallery-cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  height: 500px;
+}
+
+.carousel-root {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-detail-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  .back {
+    color: #ff8a30;
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #f5f7fa;
+    border: transparent;
+    cursor: pointer;
+  }
+}
+
+.product-detail-subheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 1rem ;
+  width: 100%;
+  color: var(--footerBackground);
+}
+
+.product-detail-star {
+  width: 15px;
+  height: 15px;
+}
+
+.product-detail-subheader div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.product-detail-location {
+  width: 15px;
+  height: 15px;
+}
+.product-detail-description {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 34px;
+}
+
+.product-detail-description1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid orange;
+  border-radius: 16px;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+  width: 32%;
+}
+.product-detail-description1 h3 {
+  width: 80%;
+}
+.product-detail-description2 {
+  width: 60%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.date {
+  border: 1px solid gray;
+  border-radius: 16px;
+  padding: 16px;
+  width: 100%;
+  position: relative;
+
+  .calendarHome .rdrDateDisplayWrapper{
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid rgb(38, 50, 56) !important;
+  }
+  .calendarHome .rdrDateDisplay {
+    justify-content: space-evenly !important;
+    flex-wrap: wrap !important;
+  }
+  .calendarHome .rdrDateDisplayItem {
+    background-color: white !important;
+    color:  rgb(38, 50, 56)!important;
+  }
+  .calendarHome .rdrDateDisplayItem input {
+    color: rgba(38, 50, 56, 0.797) !important;
+  }
+  .calendarHome .rdrDateDisplayItemActive input {
+    color: rgb(38, 50, 56) !important;
+  }
+}
+.date h4 {
+  margin-bottom: 0.5rem;
+}
+.date-range-container {
+  position: absolute;
+  top: -5px;
+  left: -30%;
+}
+
+.visitaH1 {
+  font-family: var(--montserrat);
+  font-size: 30px;
+  color: var(--footerBackground);
+}
+.date input {
+  width: 180px;
+}
+.counter {
+  border: 1px solid gray;
+  border-radius: 16px;
+  padding: 16px;
+}
+.counter input {
+  width: 180px;
+}
+.calendar-counter {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 50px;
+  width: 80%;
+}
+.my-button {
+  background-color: #ff8a30;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.my-button:disabled {
+  opacity: 70%;
+  cursor: not-allowed;
+}
+.product-detail-container {
+  display: flex;
+  padding: 9rem 100px 50px 100px;
+  flex-direction: column;
+  gap: 34px;
+}
+.product-detail-experience {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.product-detail-ruins {
+  width: 15px;
+  height: 15px;
+}
+.product-detail-places3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid gray;
+  border-radius: 16px;
+  padding: 5px;
+  width: 296px;
+}
+.product-detail-places2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-detail-places {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-detail-ruins {
+  width: 30px;
+  height: 30px;
+}
+
+.calendar-counter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.see-more-content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.see-more-content-btn {
+  color: #ff8a30;
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #f5f7fa;
+  border: transparent;
+  cursor: pointer;
+}
+
+.product-detail-reviews{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+.product-detail-reviews-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* POLITICS STYLES  */
+.politicsContainer {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.politic-item {
+  margin-bottom: 2rem;
+}
+.pDescription {
+  padding-top: 0.3rem;
+
+  text-align: left;
+}
+.politic-item h5 {
+  text-decoration: underline;
+}
+
+.politicTitle {
+  margin-top: 1rem;
+}
+
+
+@media  (max-width: 400px) {
+
+  .pDescription {
+    font-size: 0.8rem;
+    margin-bottom: 0rem;
+  }
+
+
+  .counter {
+    border-radius: 16px;
+    padding: 16px;
+  }
+  .calendar-counter {
+    font-size: 0.7rem;
+  }
+  .product-detail-description1 {
+    width: 150% !important;
+  }
+
+  .product-detail-subheader {
+    display: flex;
+    flex-wrap: wrap;
+    .back {
+      padding: 20px 0px 0px 0px;
+      background: white;
+    }
+  }
+}
+
+/* POLITICS STYLES  END */
+@media screen and (max-width: 1350px) {
+
+  .product-detail-description1{
+    width: 40%;
+  }
+  
+  .product-detail-description2 {
+    width: 55%;
+  }
+  
+  .product-detail-description {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 1175px) {
+  
+  .product-detail-gallery {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .content-product-image {
+    height: 245px;
+  }
+
+  .product-detail-gallery-principal {
+    height: 300px;
+    width: 100%;
+    display: none;
+
+    .principal-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .product-image {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .product-detail-gallery-cont {
+    display: flex;
+    gap: 10px;
+    height: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-width: -webkit-fill-available;
+  }
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Fondo semi-transparente para el spinner */
+  z-index: 1000;
+}
+
+@media screen and (max-width: 775px) {
+  .product-detail-subheader {
+    gap: 0.5rem;
+  }
+  .product-detail-places3 {
+    width: 100%;
+  }
+  .politic-item {
+    margin-bottom: 0.5rem;
+  }
+  .politicsContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+  
+  .product-detail-container {
+    gap: 24px;
+    padding: 8.5rem 30px 100px;
+  }
+
+  .product-detail-title {
+    margin-bottom: 0.2rem;
+  }
+
+  .visitaH1 {
+    font-size: 20px;
+  }
+
+  .product-detail-subheader div {
+    width: 100%;
+  }
+  
+  .product-detail-header{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .product-detail-subheader .back {
+    padding: 8px 15px
+  }
+
+  .product-detail-description1 {
+    width: 100%;
+  }
+
+  .product-detail-description2 {
+    width: auto;
+    text-align: justify;
+    display: flex;
+    gap: 20px;
+  }
+
+  .date input {
+    width: 200px;
+  }
+
+  .counter input {
+    width: 100px;
+  }
+
+  .calendar-counter {
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .product-detail-description1 h3 {
+    width: 100%;
+  }
+
+  .inputBox {
+    font-size: xx-small;
+  }
+}

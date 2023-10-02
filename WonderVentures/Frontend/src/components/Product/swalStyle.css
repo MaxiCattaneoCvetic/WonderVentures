@@ -1,0 +1,13 @@
+.swal-button {
+	color: white;
+	background-color: var(--primaryColor);
+
+}
+.swal-button:hover{
+	background-color: var(--primaryColor) !important;
+	transform: scale(105%);
+}
+
+.swal-footer{
+	text-align: center;
+}

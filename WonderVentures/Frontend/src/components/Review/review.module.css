@@ -1,0 +1,130 @@
+
+.reviewContainer {
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	
+}
+
+.reviewItem {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20rem;
+	width: 51rem;
+	border-radius: 30px;
+	position: relative;
+	color: var(--footerBackground);
+	font-family: var(--sourceSans);
+	filter: drop-shadow(4px 4px 4px rgb(0, 0, 0, 0.25));
+}
+
+.reviewItemOff{
+	display: flex;
+	
+}
+
+
+.titleBox {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 0.5rem;
+	text-align: left;
+	width: 90%;
+}
+
+
+.revContainerText {
+	position: absolute;
+	filter: drop-shadow(4px 4px 4px rgb(0, 0, 0, 0.25));
+	bottom: -20px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 30px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.932);
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem
+}
+.revContainerTextB{
+	filter: drop-shadow(4px 4px 4px rgb(0, 0, 0, 0.25));
+	border-radius: 30px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.932);
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem
+}
+
+.containerInfoExperience {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem;
+	width: 90%;
+}
+
+.scoreContainer {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
+
+.scoreContainer .icon {
+	width: 10px;
+	height: 10px;
+	color: var(--primaryColor);
+	flex-wrap: wrap;
+}
+
+
+@media (min-width: 300px) and (max-width: 700px) {
+
+	.reviewContainer {
+		margin-top: 2rem;
+		margin-bottom: 5rem;
+		width: auto;
+	}
+
+	.titleBox {
+		font-size: 0.8rem;
+	}
+
+	.revContainerText {
+		width: 111%;
+    height: 42%;
+    padding: 10px;
+	}
+
+	.containerInfoExperience {
+		padding: 0rem;
+		gap: 10px;
+	}
+
+	.reviewItem {
+		width: 40rem;
+	}
+
+	.containerInfoExperience p {
+		font-size: 0.8rem;
+	}
+
+	/* .reviewItemProductDetail{
+		width: 40%;
+	} */
+
+}
+
+
